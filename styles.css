@@ -210,10 +210,67 @@ footer {
 .footer_links >h5 {
   color: #ed2e30;
 }
-.footer_links >ul {
+.footer_links >ul , .child > ul{
   list-style: none;
- padding-top: 10px;
+  padding-top: 10px;
+  padding-left: 0;
 }
 .footer_links >ul>li {
   padding: 8px 0px;
+}
+.cod_link {
+  margin-left: 50px;
+}
+.child_span {
+  margin: 20px 0;
+}
+.footer_second_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.app_download {
+  margin-top: 20px;
+}
+.app_download img {
+  height: 40px;
+  width: 126px;
+}
+.app_download > a {
+  padding-right: 30px;
+  padding-top: 20px;
+}
+.footer_social{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 120px;
+  margin-bottom: 20px;
+}
+.Nav_links  {
+  padding-left: 60px;
+}
+.navigation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 90%;
+  border: 1px solid rgba(128, 128, 128, 0.71);
+}
+.navigation > h5 {
+  color: #ed2e30;
+  margin-left: 12px;
+  font-weight: 900;
+}
+.footer_icon {
+  margin: 47px;
+}
+.icon_container {
+  width: 100%;
+}
+.icon_container > img  {
+  width: 100%;
 }
