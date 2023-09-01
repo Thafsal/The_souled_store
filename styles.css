@@ -274,3 +274,11 @@ footer {
 .icon_container > img  {
   width: 100%;
 }
+.disclaimer_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-h5 {
+  color: rgba(128, 128, 128, 0.71);
+}
